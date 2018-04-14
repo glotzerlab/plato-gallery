@@ -3,16 +3,28 @@
 
 This repository is intended to highlight visually-interesting examples of systems rendered using plato <https://plato-draw.readthedocs.io>.
 
+For ease of use, data are currently stored directly in the repository alongside the notebooks to render them.
+
+Examples use the [libgetar](https://bitbucket.org/glotzer/libgetar) library for storing trajectory data. Some examples compute things using the [freud](https://bitbucket.org/glotzer/freud) library.
+
 # Gallery Images
 
 ## Binary tetrahedra-octahedra crystal
 
-This is the same scene that appeared on the cover of Soft Matter for the paper "Self-assembly of a space-tessellating structure in the binary system of hard tetrahedra and octahedra" by Cadotte, Dshemuchadse, Damasceno, Newman, and Glotzer <https://dx.doi.org/10.1039/C6SM01180B>.
+This notebook generates an image similar to that found in a Soft Matter cover associated with the paper [Self-assembly of a space-tessellating structure in the binary system of hard tetrahedra and octahedra](http://pubs.rsc.org/en/content/articlelanding/2016/sm/c6sm01180b) by Cadotte, Dshemuchadse, Damasceno, Newman, and Glotzer.
 
 ![binary crystal of tetrahedra and octahedra](gallery/tetrahedra_octahedra_povray.png "binary crystal of tetrahedra and octahedra")
 
 ## Protein
 
-A cartoon-style rendering of the protein glutathione s-transferase <https://www.rcsb.org/structure/1AQW>.
+This notebook renders a cartoon-style image of the protein [glutathione s-transferase](https://www.rcsb.org/structure/1AQW).
 
 ![PDB protein 1aqw](gallery/protein_vispy.png "PDB protein 1aqw")
+
+## Hexatic Polygons
+
+These are data from the study [Shape and Symmetry Determine Two-Dimensional Melting Transitions of Hard Regular Polygons](https://dx.doi.org/10.1103/PhysRevX.7.021001). A selection of the data from the paper are available at [Deep Blue](https://deepblue.lib.umich.edu/data/concern/generic_works/rb68xb988?locale=en) under the [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode).
+
+The hexatic order parameter $\psi_6$ for each particle is computed using [freud](https://bitbucket.org/glotzer/freud). The angle of $\psi_6$ for each particle, corresponding to the orientation of each particle's nearest 6-neighbor environment, is mapped to the color for the particle.
+
+![Hexatic polygons](gallery/hexatic_polygons_vispy.png "Hexatic polygons")
