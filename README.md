@@ -28,3 +28,9 @@ These are data from the study [Shape and Symmetry Determine Two-Dimensional Melt
 The hexatic order parameter $\psi_6$ for each particle is computed using [freud](https://bitbucket.org/glotzer/freud). The angle of $\psi_6$ for each particle, corresponding to the orientation of each particle's nearest 6-neighbor environment, is mapped to the color for the particle.
 
 ![Hexatic polygons](gallery/hexatic_polygons_vispy.png "Hexatic polygons")
+
+## Active Squares
+
+This notebook renders a set of rotationally-driven, rounded squares using the Discrete Element Method (DEM) component of [hoomd-blue](https://glotzerlab.engin.umich.edu/hoomd-blue/). Particles are colored according to the orientation of their hexatic order parameter $\psi_6$ by [freud](https://glotzerlab.engin.umich.edu/freud/), showing the hexagonally-ordered domains of the crystal.
+
+![Active squares](gallery/active_squares_matplotlib.png "Active squares")
