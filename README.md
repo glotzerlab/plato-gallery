@@ -1,7 +1,7 @@
 
 # Overview
 
-This repository is intended to highlight visually-interesting examples of systems rendered using plato <https://plato-draw.readthedocs.io>.
+This repository is intended to highlight visually-interesting examples of systems rendered using [plato](https://plato-draw.readthedocs.io). Note that these are more "rough and dirty," but realistically useful, scenes; for simpler examples, refer to the [plato test demo scenes](https://bitbucket.org/glotzer/plato/src/master/test/test_scenes.py).
 
 For ease of use, data are currently stored directly in the repository alongside the notebooks to render them.
 
