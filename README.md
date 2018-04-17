@@ -34,3 +34,9 @@ The hexatic order parameter $\psi_6$ for each particle is computed using [freud]
 This notebook renders a set of rotationally-driven, rounded squares using the Discrete Element Method (DEM) component of [hoomd-blue](https://glotzerlab.engin.umich.edu/hoomd-blue/). Particles are colored according to the orientation of their hexatic order parameter $\psi_6$ by [freud](https://glotzerlab.engin.umich.edu/freud/), showing the hexagonally-ordered domains of the crystal.
 
 [![Active squares](gallery/active_squares_matplotlib.png "Active squares")](active_squares/Active Squares.ipynb?fileviewer=notebook-viewer%3Anbviewer)
+
+## Contact-triggered Active Particles
+
+These results are from the paper [Tunable emergent structures and traveling waves in mixtures of passive and contact-triggered-active particles](https://dx.doi.org/10.1039/C7SM00888K) by Agrawal, Bruss, and Glotzer. In this image, contact-triggered active particles (red) and passive particles (blue) assemble two different ordered structures.
+
+[![Active disks](gallery/contact_active_particles_matplotlib.png "Active disks")](contact_active_particles/Contact-triggered Active Particles.ipynb?fileviewer=notebook-viewer%3Anbviewer)
