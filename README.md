@@ -13,13 +13,13 @@ Examples use the [libgetar](https://bitbucket.org/glotzer/libgetar) library for 
 
 This notebook generates an image similar to that found in a Soft Matter cover associated with the paper [Self-assembly of a space-tessellating structure in the binary system of hard tetrahedra and octahedra](http://pubs.rsc.org/en/content/articlelanding/2016/sm/c6sm01180b) by Cadotte, Dshemuchadse, Damasceno, Newman, and Glotzer.
 
-[![binary crystal of tetrahedra and octahedra](gallery/tetrahedra_octahedra_povray.png "binary crystal of tetrahedra and octahedra")](tetrahedra_octahedra/Soft Matter Cover.ipynb?fileviewer=notebook-viewer%3Anbviewer)
+[![binary crystal of tetrahedra and octahedra](gallery/tetrahedra_octahedra_povray.png "binary crystal of tetrahedra and octahedra")](tetrahedra_octahedra/Soft Matter Cover.ipynb?viewer=nbviewer)
 
 ## Protein
 
 This notebook renders a cartoon-style image of the protein [glutathione s-transferase](https://www.rcsb.org/structure/1AQW).
 
-[![PDB protein 1aqw](gallery/protein_vispy.png "PDB protein 1aqw")](protein/Protein example.ipynb?fileviewer=notebook-viewer%3Anbviewer)
+[![PDB protein 1aqw](gallery/protein_vispy.png "PDB protein 1aqw")](protein/Protein example.ipynb?viewer=nbviewer)
 
 ## Hexatic Polygons
 
@@ -27,16 +27,16 @@ These are data from the study [Shape and Symmetry Determine Two-Dimensional Melt
 
 The hexatic order parameter $\psi_6$ for each particle is computed using [freud](https://bitbucket.org/glotzer/freud). The angle of $\psi_6$ for each particle, corresponding to the orientation of each particle's nearest 6-neighbor environment, is mapped to the color for the particle.
 
-[![Hexatic polygons](gallery/hexatic_polygons_vispy.png "Hexatic polygons")](hexatic_polygons/Hexatic Polygons.ipynb?fileviewer=notebook-viewer%3Anbviewer)
+[![Hexatic polygons](gallery/hexatic_polygons_vispy.png "Hexatic polygons")](hexatic_polygons/Hexatic Polygons.ipynb?viewer=nbviewer)
 
 ## Active Squares
 
 This notebook renders a set of rotationally-driven, rounded squares using the Discrete Element Method (DEM) component of [hoomd-blue](https://glotzerlab.engin.umich.edu/hoomd-blue/). Particles are colored according to the orientation of their hexatic order parameter $\psi_6$ by [freud](https://glotzerlab.engin.umich.edu/freud/), showing the hexagonally-ordered domains of the crystal.
 
-[![Active squares](gallery/active_squares_matplotlib.png "Active squares")](active_squares/Active Squares.ipynb?fileviewer=notebook-viewer%3Anbviewer)
+[![Active squares](gallery/active_squares_matplotlib.png "Active squares")](active_squares/Active Squares.ipynb?viewer=nbviewer)
 
 ## Contact-triggered Active Particles
 
 These results are from the paper [Tunable emergent structures and traveling waves in mixtures of passive and contact-triggered-active particles](https://dx.doi.org/10.1039/C7SM00888K) by Agrawal, Bruss, and Glotzer. In this image, contact-triggered active particles (red) and passive particles (blue) assemble two different ordered structures.
 
-[![Active disks](gallery/contact_active_particles_matplotlib.png "Active disks")](contact_active_particles/Contact-triggered Active Particles.ipynb?fileviewer=notebook-viewer%3Anbviewer)
+[![Active disks](gallery/contact_active_particles_matplotlib.png "Active disks")](contact_active_particles/Contact-triggered Active Particles.ipynb?viewer=nbviewer)
