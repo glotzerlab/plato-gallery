@@ -40,3 +40,9 @@ This notebook renders a set of rotationally-driven, rounded squares using the Di
 These results are from the paper [Tunable emergent structures and traveling waves in mixtures of passive and contact-triggered-active particles](https://dx.doi.org/10.1039/C7SM00888K) by Agrawal, Bruss, and Glotzer. In this image, contact-triggered active particles (red) and passive particles (blue) assemble two different ordered structures.
 
 [![Active disks](gallery/contact_active_particles_matplotlib.png "Active disks")](contact_active_particles/Contact-triggered Active Particles.ipynb?viewer=nbviewer)
+
+## Crystallization
+
+This notebook shows a process of nucleation and growth of a somewhat complex crystal structure ($tP30-\text{CrFe}$). Individual particles were identified as being in the fluid or solid phase using [pythia](https://pythia-learn.readthedocs.io).
+
+[![Crystallization](gallery/crystallization_vispy_2.png "Crystallization")](crystallization/Crystallization.ipynb?viewer=nbviewer)
