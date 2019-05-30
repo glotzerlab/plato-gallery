@@ -1,0 +1,4 @@
+povray
+xvfb
+libglu1-mesa
+libgl1-mesa-dri
