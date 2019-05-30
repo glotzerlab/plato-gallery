@@ -1,7 +1,11 @@
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/glotzerlab/plato-gallery/master)
+
 # Overview
 
 This repository is intended to highlight visually-interesting examples of systems rendered using [plato](https://plato-draw.readthedocs.io). Note that these are more "rough and dirty," but realistically useful, scenes; for simpler examples, refer to the [plato test demo scenes](https://github.com/glotzerlab/plato/blob/master/test/test_scenes.py).
+
+Live examples are available through [mybinder.org](https://mybinder.org/v2/gh/glotzerlab/plato-gallery/master), although it may be preferable to run more complex examples on your own computer.
 
 For ease of use, data are currently stored directly in the repository alongside the notebooks to render them.
 
