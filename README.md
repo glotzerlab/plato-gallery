@@ -11,7 +11,23 @@ For ease of use, data are currently stored directly in the repository alongside 
 
 Examples use the [libgetar](https://github.com/glotzerlab/libgetar) library for storing trajectory data. Some examples compute things using the [freud](https://github.com/glotzerlab/freud) library.
 
-# Gallery Images
+# Live Simulation Examples
+
+These examples are generated from live [hoomd-blue](https://github.com/glotzerlab/hoomd-blue) simulations using the [hoomd_flowws](https://github.com/klarh/hoomd_flowws) project and analyzed using [freud](https://github.com/glotzerlab/freud).
+
+## Repulsive Spheres
+
+[![hard spheres](gallery/flowws_spheres_povray.png "assembly of spheres")](https://github.com/glotzerlab/plato-gallery/blob/master/flowws/spheres/Spheres.ipynb)
+
+## Rounded Cubes
+
+[![rounded cubes](gallery/flowws_cubes_povray.png "assembly of rounded cubes")](https://github.com/glotzerlab/plato-gallery/blob/master/flowws/rounded_cubes/Rounded%20Cubes.ipynb)
+
+## Hard Icosahedra
+
+[![icosahedra](gallery/flowws_icosahedra_fresnel.png "assembly of hard icosahedra")](https://github.com/glotzerlab/plato-gallery/blob/master/flowws/icosahedra/Icosahedra.ipynb)
+
+# Realistic Examples
 
 ## Binary tetrahedra-octahedra crystal
 

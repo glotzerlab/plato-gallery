@@ -6,6 +6,7 @@ dependencies:
     - cython
     - fresnel
     - freud
+    - hoomd
     - pyglet
     - pip
     - pip:
@@ -14,3 +15,5 @@ dependencies:
       - git+https://github.com/vispy/vispy
       - plato-draw
       - gtar
+      - git+https://github.com/klarh/flowws
+      - git+https://github.com/klarh/hoomd_flowws
