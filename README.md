@@ -15,6 +15,10 @@ Examples use the [libgetar](https://github.com/glotzerlab/libgetar) library for 
 
 These examples are generated from live [hoomd-blue](https://github.com/glotzerlab/hoomd-blue) simulations using the [hoomd_flowws](https://github.com/klarh/hoomd_flowws) project and analyzed using [freud](https://github.com/glotzerlab/freud).
 
+## Rounded Pentagons
+
+[![rounded pentagons](gallery/flowws_pentagons_matplotlib.png "assembly of rounded pentagons")](https://github.com/glotzerlab/plato-gallery/blob/master/flowws/rounded_pentagons/Rounded%20Pentagons.ipynb)
+
 ## Repulsive Spheres
 
 [![hard spheres](gallery/flowws_spheres_povray.png "assembly of spheres")](https://github.com/glotzerlab/plato-gallery/blob/master/flowws/spheres/Spheres.ipynb)
