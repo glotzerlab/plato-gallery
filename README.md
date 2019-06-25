@@ -18,6 +18,7 @@ These showcase the basics of creating and displaying plato scenes and primitives
 - [Basic overview](https://github.com/glotzerlab/plato-gallery/blob/master/tutorials/Basic%20overview.ipynb)
 - [Arrows2D primitive](https://github.com/glotzerlab/plato-gallery/blob/master/tutorials/Arrows2D.ipynb)
 - [ConvexPolyhedra primitive](https://github.com/glotzerlab/plato-gallery/blob/master/tutorials/ConvexPolyhedra.ipynb)
+- [SpherePoints primitive](https://github.com/glotzerlab/plato-gallery/blob/master/tutorials/SpherePoints.ipynb)
 
 # Live Simulation Examples
 
