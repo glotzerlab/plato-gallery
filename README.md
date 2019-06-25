@@ -3,13 +3,21 @@
 
 # Overview
 
-This repository is intended to highlight visually-interesting examples of systems rendered using [plato](https://plato-draw.readthedocs.io). Note that these are more "rough and dirty," but realistically useful, scenes; for simpler examples, refer to the [plato test demo scenes](https://github.com/glotzerlab/plato/blob/master/test/test_scenes.py).
+This repository is intended to highlight both simple and visually-interesting examples of systems rendered using [plato](https://plato-draw.readthedocs.io). Note that many of these are more "rough and dirty," but realistically useful, scenes; there are many other simpler examples located in the [plato test demo scenes](https://github.com/glotzerlab/plato/blob/master/test/test_scenes.py).
 
 Live examples are available through [mybinder.org](https://mybinder.org/v2/gh/glotzerlab/plato-gallery/master), although it may be preferable to run more complex examples on your own computer.
 
 For ease of use, data are currently stored directly in the repository alongside the notebooks to render them.
 
 Examples use the [libgetar](https://github.com/glotzerlab/libgetar) library for storing trajectory data. Some examples compute things using the [freud](https://github.com/glotzerlab/freud) library.
+
+# Tutorial-Style Simple Examples
+
+These showcase the basics of creating and displaying plato scenes and primitives.
+
+- [Basic overview](https://github.com/glotzerlab/plato-gallery/blob/master/tutorials/Basic%20overview.ipynb)
+- [Arrows2D primitive](https://github.com/glotzerlab/plato-gallery/blob/master/tutorials/Arrows2D.ipynb)
+- [ConvexPolyhedra primitive](https://github.com/glotzerlab/plato-gallery/blob/master/tutorials/ConvexPolyhedra.ipynb)
 
 # Live Simulation Examples
 
