@@ -3,7 +3,6 @@
 channels:
     - conda-forge
 dependencies:
-    - cython
     - fresnel
     - freud
     - hoomd
@@ -12,7 +11,7 @@ dependencies:
     - pip:
       - matplotlib
       - pythreejs
-      - git+https://github.com/vispy/vispy
+      - vispy
       - plato-draw
       - gtar
       - git+https://github.com/klarh/flowws
