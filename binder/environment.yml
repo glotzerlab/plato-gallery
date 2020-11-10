@@ -16,3 +16,4 @@ dependencies:
       - gtar
       - git+https://github.com/klarh/flowws
       - git+https://github.com/klarh/hoomd_flowws
+      - imageio
